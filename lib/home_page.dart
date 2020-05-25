@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
         ],
         centerTitle: false,
         title: Text(
-          'COVID-19 TRACKER',
+          'COVID-19 By SquarePro Labs',
         ),
       ),
       body: RefreshIndicator(
@@ -78,7 +78,12 @@ class _HomePageState extends State<HomePage> {
             Container(
               margin: EdgeInsets.only(left: 8.0,right: 8.0,top: 10.0),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15.0),color: Colors.indigoAccent
+                borderRadius: BorderRadius.circular(15.0),color: Colors.indigoAccent,
+                image: DecorationImage(
+                  image: AssetImage('images/2.jpg'),
+                  fit: BoxFit.fill
+                )
+
               ),
               height: 100,
               alignment: Alignment.center,
@@ -170,7 +175,7 @@ class _HomePageState extends State<HomePage> {
             ),
             Center(
                 child: Text(
-              'WE ARE TOGETHER IN THE FIGHT',
+              'නැගිටිමු ශ්‍රී ලංකා ...',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
             )),
             SizedBox(

@@ -37,36 +37,36 @@ class InfoPanel extends StatelessWidget {
               ),
             ),
           ),
-          GestureDetector(
-            onTap: () {
-              launch('https://covid19responsefund.org/');
-            },
-            child: Container(
-              padding: EdgeInsets.symmetric(vertical: 12, horizontal: 10),
-              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
-              color: primaryBlack,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  Text(
-                    'DONATE',
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18),
-                  ),
-                  Icon(
-                    Icons.arrow_forward,
-                    color: Colors.white,
-                  )
-                ],
-              ),
-            ),
-          ),
+//          GestureDetector(
+//            onTap: () {
+//              launch('https://covid19responsefund.org/');
+//            },
+//            child: Container(
+//              padding: EdgeInsets.symmetric(vertical: 12, horizontal: 10),
+//              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
+//              color: primaryBlack,
+//              child: Row(
+//                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                children: <Widget>[
+//                  Text(
+//                    'DONATE',
+//                    style: TextStyle(
+//                        color: Colors.white,
+//                        fontWeight: FontWeight.bold,
+//                        fontSize: 18),
+//                  ),
+//                  Icon(
+//                    Icons.arrow_forward,
+//                    color: Colors.white,
+//                  )
+//                ],
+//              ),
+//            ),
+//          ),
           GestureDetector(
             onTap: () {
               launch(
-                  'https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters');
+                  'https://www.who');
             },
             child: Container(
               padding: EdgeInsets.symmetric(vertical: 12, horizontal: 10),
@@ -76,7 +76,7 @@ class InfoPanel extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    'MYTH BUSTERS',
+                    'WHO',
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,

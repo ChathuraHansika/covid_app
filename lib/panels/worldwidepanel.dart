@@ -32,6 +32,9 @@ class WorldwidePanel extends StatelessWidget {
                       'CONFIRMED',
                       style: TextStyle(color: Colors.white,fontSize: 15.0,fontWeight: FontWeight.bold),
                     ),
+                    Padding(
+                      padding: EdgeInsets.only(bottom: 5.0),
+                    ),
                     Text(
                       worldData['cases'].toString(),
                       style: TextStyle(color: Colors.white,fontSize: 15.0,fontWeight: FontWeight.bold,letterSpacing: 2.0),
@@ -58,6 +61,9 @@ class WorldwidePanel extends StatelessWidget {
                     Text(
                       'ACTIVE',
                       style: TextStyle(color: Colors.white,fontSize: 15.0,fontWeight: FontWeight.bold),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(bottom: 5.0),
                     ),
                     Text(
                       worldData['active'].toString(),
@@ -86,6 +92,9 @@ class WorldwidePanel extends StatelessWidget {
                       'RECOVERD',
                       style: TextStyle(color: Colors.white,fontSize: 15.0,fontWeight: FontWeight.bold),
                     ),
+                    Padding(
+                      padding: EdgeInsets.only(bottom: 5.0),
+                    ),
                     Text(
                       worldData['recovered'].toString(),
                       style: TextStyle(color: Colors.white,fontSize: 15.0,fontWeight: FontWeight.bold,letterSpacing: 2.0),
@@ -112,6 +121,9 @@ class WorldwidePanel extends StatelessWidget {
                     Text(
                       'DEATH',
                       style: TextStyle(color: Colors.white,fontSize: 15.0,fontWeight: FontWeight.bold),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(bottom: 5.0),
                     ),
                     Text(
                       worldData['deaths'].toString(),

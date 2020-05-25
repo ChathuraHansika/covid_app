@@ -21,14 +21,14 @@ class MostAffectedPanel extends StatelessWidget {
                   height: 25,
                 ),
                 SizedBox(
-                  width: 10,
+                  width: 30,
                 ),
                 Text(
                   countryData[index]['country'],
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
-                  width: 10,
+                  width: 30,
                 ),
                 Text(
                   'Deaths:' + countryData[index]['deaths'].toString(),
