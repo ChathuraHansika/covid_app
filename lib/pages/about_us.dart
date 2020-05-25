@@ -25,7 +25,7 @@ class _AboutUsState extends State<AboutUs> {
             ),
           ),
           CircleAvatar(
-//            backgroundImage: AssetImage('images/1.jpg'),
+            backgroundImage: AssetImage('images/1.jpg'),
           ),
           Padding(
             padding: EdgeInsets.only(bottom: 50.0),
